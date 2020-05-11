@@ -48,6 +48,19 @@ h2 {
   text-align: center;
 }
 
+.header h1{
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+.wbijaj{
+  margin-top: 2em;
+}
+
+.orange-dot{
+  color: #f47e00;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
