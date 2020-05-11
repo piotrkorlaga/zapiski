@@ -10,11 +10,42 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@font-face {
+  font-family: "Lora";
+  src: url("../static/Lora-Medium.ttf");
+}
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+h1, h2 {
+  text-align: center;
+  padding: 0.25em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.face, .insta {
+  padding: 2em;
+  text-align: center;
+}
+
+.header, .subheader{
+  text-align: center;
 }
 
 /*
